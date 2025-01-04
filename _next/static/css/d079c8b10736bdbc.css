@@ -1,0 +1,119 @@
+.formContainer {
+  border-radius: 10px;
+  margin-bottom: 100px;
+  justify-self: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(94, 94, 94, 0.14);
+  align-items: center;
+  border: 1px solid #fff;
+}
+.image {
+  height: 40%;
+}
+.heroContainer {
+  display: grid;
+  grid-template-columns: 10% 10% repeat(4, 20%);
+  grid-template-rows: repeat(9, 1fr);
+  margin-top: 4vh;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  font-family: var(--poppins);
+  font-weight: 700;
+}
+
+.cyber {
+  grid-row-end: 3;
+  z-index: 0;
+  width: 100%;
+}
+.cyber,
+.mainText {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+.mainText {
+  grid-row-end: 7;
+  z-index: 10;
+  line-height: 120%;
+  font-weight: 600;
+  color: hsla(0, 0%, 100%, 0.7);
+  width: 85%;
+  font-size: 11vmin;
+}
+.mainText i {
+  background-image: linear-gradient(90deg, #6104d7, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-style: normal;
+  letter-spacing: 0.45px;
+}
+.conference {
+  grid-row-start: 6;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  z-index: 0;
+  width: 100%;
+}
+.cyber p {
+  color: #fff;
+  font-size: 35vmin;
+  font-weight: 600;
+  text-shadow: 1px 1px rgba(255, 0, 0, 0.25), -1px -1px rgba(255, 0, 0, 0.25);
+}
+@supports (-webkit-text-stroke: 1px rgba(255, 0, 0, 0.25)) {
+  .cyber p {
+    color: transparent;
+    -webkit-text-stroke: 0.1vw rgba(255, 0, 0, 0.25);
+    text-shadow: none;
+  }
+}
+.cardCont {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  font-size: 24px;
+  margin: 0 10px;
+}
+.cards {
+  grid-row-start: 8;
+  grid-row-end: 9;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  width: 100%;
+  z-index: 10;
+}
+@media screen and (max-width: 920px) {
+  .heroContainer {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .heroContainer {
+    height: 50vh;
+  }
+  .cyber p {
+    font-weight: 600;
+    -webkit-text-stroke: 0.5vw rgba(255, 0, 0, 0.3);
+  }
+  .mainText {
+    color: #fff;
+    width: 100%;
+    font-size: 8vmin;
+  }
+  .cardCont {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
