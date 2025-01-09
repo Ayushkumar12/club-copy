@@ -12,15 +12,8 @@
   height: 40%;
 }
 .heroContainer {
-  display: grid;
-  grid-template-columns: 10% 10% repeat(4, 20%);
-  grid-template-rows: repeat(9, 1fr);
   margin-top: 4vh;
-  width: 100%;
-  height: 100vh;
-  color: #fff;
   font-family: var(--poppins);
-  font-weight: 700;
 }
 
 .cyber {
