@@ -74,25 +74,9 @@
             <div class="conference cyber"></div>
             <div class="cards"></div>
         </div>
-        <section class="">
-        <div class="relative container mx-auto flex flex-col-reverse px-5 py-8 md:flex-row items-center ">
-            <div data-aos='zoom-in-right' class="lg:flex-grow md:w-1/2 lg:pr-8 md:pl-8 flex flex-col md:items-end md:text-right items-center text-center m-5">
-                <h2 class=" text-4xl md:text-5xl font-bold mt-4 text-white">About us</h2>
-                <p class="mb-4 leading-relaxed text-white mt-2 text-sm md:text-base">
-                    CyberZero is a club of Noida international university
-                    where students delve into
-                    the vast realm of computer science, fuelled by a passion for innovation and a desire to challenge
-                    their limits more than just a club it's a dynamic community of
-                    forward-thinkers, creators, and enthusiasts. Our Vision
-                    At CyberZero, we envision a world where students not only embrace the ever-evolving landscape of
-                    computer science but actively contribute to its growth. Our vision is grounded in the belief that
-                    starting from scratch breeds resilience, creativity, and a relentless pursuit of excellence.
-                </p>
-            </div>
-        </div>
-        </section>
+        
         <section>
-            <div class="relative container flex flex-col px-5 py-8 md:flex-row items-center">
+            <div class="relative container flex flex-col-reverse px-5 py-8 md:flex-row items-center">
 
                 <div data-aos="zoom-in-left"
                     class=" lg:flex-grow md:w-1/2 lg:pr-8 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center">

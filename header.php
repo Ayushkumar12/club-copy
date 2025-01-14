@@ -48,25 +48,21 @@
         
         <div class="burgerContainer z-30 absolute left-0 right-0 top-0 py-4">
             <a href="index" class="logo-container block h-full w-full relative">
-                <img src="assets/logo.webp" alt="CyberZero Logo" loading="lazy" width="64" height="32" decoding="async"
+                <img src="assets/logo.webp" alt="CyberZero Logo" loading="lazy" width="60" height="30" decoding="async"
                     data-nimg="1" style="color: transparent"
                     class="logo_A absolute inset-0  opacity-100 transition-opacity duration-1000 ease-in-out">
-            </a>
-            <a href="https://niu.edu.in/">
-                <img src="assets/niu.png" alt="Niu Logo" loading="lazy" width="64" height="32" decoding="async"
-                    data-nimg="1" style="color: transparent"
-                    class="logo_B absolute inset-0 opacity-0 transition-opacity duration-1000 ease-in-out">
             </a>
             
             <div class="lg:hidden">
                 <button id="open-sidebar" >
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
-                            width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="2em"
+                            width="2em" xmlns="http://www.w3.org/2000/svg">
                         <path d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"></path>
                     </svg>
                 </button>
             </div>  
         </div>
+        
         <div class="bgCont absolute left-0 right-0 top-[-14vh] hidden lg:block">
             <header
                 class="flex justify-between border-white border-[1px] items-center fixed bg-[#30303080] backdrop-blur-[15px] fill-[rgba(48,48,48,0.50)] rounded-xl w-[65%] mx-auto px-3 py-2 left-1/2 -translate-x-1/2 text-white font-bold top-[24px] z-50 section-width-constraint"
@@ -96,6 +92,9 @@
                     <a href="members.php"  
                         class="text-[14px] px-2">
                         Members</a>
+                    <a href="about.php"
+                    class="text-[14px] px-2"
+                    >About-Us</a>
                 </nav>
                 <a href="tickets.html" class="primary-btn lg:p-[16px] uppercase">GET YOUR TICKETS</a>
             </header>
