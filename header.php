@@ -96,7 +96,7 @@
                     class="text-[14px] px-2"
                     >About-Us</a>
                 </nav>
-                <a href="tickets.html" class="primary-btn lg:p-[16px] uppercase">GET YOUR TICKETS</a>
+                <!-- <a href="tickets.html" class="primary-btn lg:p-[16px] uppercase">GET YOUR TICKETS</a> -->
             </header>
         </div>
         <script>

@@ -70,7 +70,7 @@
     </style>
 </head>
 
-<body class="bg-gray-950">
+<body class="__className_e04c4e">
   <!-- Start Hero Area -->
   <section class="hero-area">
     <div class="container">

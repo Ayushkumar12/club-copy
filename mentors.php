@@ -2,23 +2,33 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/member.css" />
-    <script src="js/read.js"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link
+    rel="stylesheet"
+    href="_next/static/css/96d0ccac37ba4489.css"
+    crossorigin=""
+    />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
       integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
       crossorigin="anonymous"
     />
-
     <link
       rel="stylesheet"
-      href="https://uctf.ir/css/bootstrap4-neon-glow.min.css"
+      href="_next/static/css/51ed1c0b4e13e7dd.css"
+      crossorigin=""
     />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <title>CyberZero Club</title>
+    <meta name="description" content="Official website of BSides Dehradun" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16" />
+    <meta name="next-size-adjust" />
+    <link rel="stylesheet" href="css/member.css" />
+    
 
     <link
       href="https://fonts.googleapis.com/css?family=Roboto"
@@ -30,26 +40,25 @@
     />
     <link rel="stylesheet" href="css/main.css" />
   <script src="//unpkg.com/alpinejs" defer></script>
-  <title>Mentors</title>
-</head>
-  <body class="imgloadedf">
-  <div class="glitch">
-        <div style="position: fixed;" class="glitch__img"></div>
-        <div style="position: fixed;" class="glitch__img"></div>
-        <div style="position: fixed;" class="glitch__img"></div>
-        <div style="position: fixed;" class="glitch__img"></div>
-        <div style="position: fixed;" class="glitch__img"></div>
-    </div>
-    <br />
-    <br />
-    <br />
-
-    <section class="text-gray-600 " style="position: relative; margin-top: 20px;">
-      <h1 class="display-1 bold color_white content__title text-center">
-      <span class="color_danger">Men</span>tors<span class="vim-caret sp">&nbsp;</span>
+  </head>
+  <body class="__className_e04c4e">
+    <section class="section-padding section-width-constraint">
+      <h1
+        class="font-bold w-fit font-poppins text-2xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#6104D7] to-[#FF0000] mb-3 md:mb-6"
+      >
+        Our Mentors
       </h1>
-      <br />
-      <br />
+      <div class="mt-10">
+        <!-- <p class="para-text font-outfit">
+          BSides Dehradun speakers are the heartbeat of our cybersecurity
+          community. With a diverse mix of seasoned experts and emerging
+          talents, they deliver captivating talks on the latest trends and
+          challenges. Dive into their bios to see who&#x27;s leading the charge
+          in shaping the future of cybersecurity.
+        </p> -->
+      </div>
+    </section>
+    <section class="text-gray-600 " style="position: relative; margin-top: 20px;">
       <div class="flex flex-col md:flex-row">
         <div class="m-4 md:w-1/3 h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden" style="backdrop-filter: blur(20px)">
           <img class="lg:h-auto md:h-36 w-full object-cover object-center" src="assets/images/geeta.png" alt="photo">
@@ -228,7 +237,7 @@
       </div>
   
     </section>
-</body>
+  </body>
 
 </html>
 <?php include 'footer.php'; ?>
