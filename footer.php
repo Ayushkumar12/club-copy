@@ -1,5 +1,18 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
 
-<footer id="footer" class="w-full bg-[#000000B0] text-white relative z-10 overflow-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="_next/static/css/96d0ccac37ba4489.css" crossorigin="" data-precedence="next" />
+    <link rel="stylesheet" href="_next/static/css/d079c8b10736bdbc.css" crossorigin="" data-precedence="next" />
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+</head>
+
+<body>
+  <footer id="footer" class="w-full bg-[#000000B0] text-white relative z-10 overflow-hidden">
     <div
       class="section-width-constraint lg:grid grid-cols-2 px-3 md:px-[clamp(48px,7.78vw,112px)] py-4 md:py-8 lg:py-12">
       <p
@@ -68,14 +81,24 @@
         <p class="font-semibold text-sm md:text-base mb-4">
           Do you have question about sponsorship or something else?
           <!-- -->
-          <br class="hidden md:block" />You&#x27;re free to mail us.
+          <br class="hidden md:block" />You&#x27;re free to Contact us.
         </p>
         <div class="flex flex-wrap gap-2 md:gap-5">
-          <a href="mailto:sponsor@bsidesdehradun.com"
-            class="px-4 py-3 border-[1.5px] border-solid border-[#EC0033] rounded-[20px] cursor-pointer grow lowercase text-center transition-colors hover:bg-[rgba(236,0,51,0.30)]">sponsor@bsidesdehradun.com</a><a
-            href="mailto:info@bsidesdehradun.com"
-            class="px-4 py-3 border-[1.5px] border-solid border-[#EC0033] rounded-[20px] cursor-pointer grow lowercase text-center transition-colors hover:bg-[rgba(236,0,51,0.30)]">info@bsidesdehradun.com</a>
+          <a href="mailto:sponsor@cyberzero.club"
+            class="px-4 py-3 border-[1.5px] border-solid border-[#EC0033] rounded-[20px] cursor-pointer grow lowercase text-center transition-colors hover:bg-[rgba(236,0,51,0.30)]">
+            sponsor@cyberzero.club</a>
+          <a href="mailto:info@cyberzero.club"
+            class="px-4 py-3 border-[1.5px] border-solid border-[#EC0033] rounded-[20px] cursor-pointer grow lowercase text-center transition-colors hover:bg-[rgba(236,0,51,0.30)]">
+            info@cyberzero.club</a>
+          <a href=""
+            class="px-4 py-3 border-[1.5px] border-solid border-[#EC0033] rounded-[20px] cursor-pointer grow lowercase text-center transition-colors hover:bg-[rgba(236,0,51,0.30)]">
+            8265826529</a>
+          <a href=""
+            class="px-4 py-3 border-[1.5px] border-solid border-[#EC0033] rounded-[20px] cursor-pointer grow lowercase text-center transition-colors hover:bg-[rgba(236,0,51,0.30)]">
+            8265826528</a>
         </div>
       </div>
     </div>
   </footer>
+</body>
+</html>

@@ -10,6 +10,7 @@
     <script src="//unpkg.com/alpinejs" defer></script>
     <script src="js/jquery.popupoverlay.js"></script>
     <link rel="stylesheet" href="css/events.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16" />
     <link rel="stylesheet" href="_next/static/css/96d0ccac37ba4489.css" crossorigin="" data-precedence="next" />

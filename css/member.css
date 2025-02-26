@@ -43,11 +43,8 @@
 /* for member */
 .card2{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50vw;
-  margin: 60px;
-  max-width: 450px;
+  flex-direction: column;
+  flex-wrap: nowrap;
   padding: 50px 30px 50px 20px;
   background-color: #bdbdbd31;
   backdrop-filter: blur(20px);
@@ -63,7 +60,6 @@
   margin-left: -60px;
   margin-right: 30px;
   border-radius: inherit;
-  /* box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.438); */
 }
 @media only screen and (max-width: 480px) {
   .card2{
